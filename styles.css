@@ -1,16 +1,4 @@
 :root {
-    --primary-color: #4f46e5;
-    --secondary-color: #818cf8;
-    --text-primary: #1f2937;
-    --text-secondary: #4b5563;
-    --bg-primary: #ffffff;
-    --bg-secondary: #f3f4f6;
-    --card-bg: #ffffff;
-    --card-border: #e5e7eb;
-}
-
-/* Dark mode variables */
-[data-theme="dark"] {
     --primary-color: #818cf8;
     --secondary-color: #4f46e5;
     --text-primary: #f3f4f6;
@@ -19,6 +7,18 @@
     --bg-secondary: #1f2937;
     --card-bg: #1f2937;
     --card-border: #374151;
+}
+
+/* Light mode variables */
+[data-theme="light"] {
+    --primary-color: #4f46e5;
+    --secondary-color: #818cf8;
+    --text-primary: #1f2937;
+    --text-secondary: #4b5563;
+    --bg-primary: #ffffff;
+    --bg-secondary: #f3f4f6;
+    --card-bg: #ffffff;
+    --card-border: #e5e7eb;
 }
 
 * {
